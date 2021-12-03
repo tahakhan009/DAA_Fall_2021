@@ -1,2 +1,6 @@
 # DAA_Fall_2021
-Final project of DAA(Design Analysis and Algorithm) 
+### PROJECT MEMBERS
+StdID | Name
+------------ | -------------
+63726 | Zainab sohaib
+63646 | Taha khan

@@ -1,13 +1,13 @@
 .heading1{
             
-    background-color:lightblue;
+    background-color:blue;
     text-align:center;
 
 
 }
 
 .heading3{
-    text-decoration: lightblue;
+    text-decoration: blue;
     background-color:lightcyan;
 }
 
@@ -26,7 +26,7 @@
     background-color: white;
 }
 .heading4{
-    text-decoration: lightblue;
+    text-decoration: blue;
     background-color:lightcyan;
     text-align: center;
     font-size: 30px;

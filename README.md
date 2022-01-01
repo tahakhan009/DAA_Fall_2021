@@ -10,7 +10,7 @@ My name is zainab sohaib i am in 7th semester and im currently enrolled in fyp-1
 ## Partner#2
 My name is Taha Khan I'm in 7th semester and I'm currently enrolled in FYP-1, I'm a devops Engineer and I have been woking on cloud since 6 month and currntly working remotely with INet System Inc
 
-![Demo](Phase1-DnCvsDP/demo.PNG "demo")
+![Demo](Phase1-DnCvsDP\demo.PNG "demo")
 
 # Minimum N-Queens Problem Simulator
 I simulated minimum n-queens problem with two algorithms : **Divide & Conq** and **Dynamic Programming** using javascript language

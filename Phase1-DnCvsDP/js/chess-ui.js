@@ -19,7 +19,7 @@ class ChessUI{
         this.queenIcon = null;
         this._stop = false;
     }
-
+//loadqueenicon
     async loadQueenIcon(){
         try{
             this.queenIcon = await this.loadImage('queen.png');

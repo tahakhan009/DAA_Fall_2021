@@ -128,7 +128,7 @@ class NQueensDPEngine{
                 newGeneration[pairedIndex * 2 + 1] = child2;
             }
 
-            // mutation
+            // Mutation done here
             for(let i = 0; i < Math.floor(generation.length * .2); i ++){
                 const index = Math.floor(Math.random() * newGeneration.length);
                 const a = +Math.floor(Math.random() * n);

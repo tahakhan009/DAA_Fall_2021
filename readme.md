@@ -66,4 +66,4 @@ Merge all the lines subsequently
 * https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
 * https://coderedirect.com/questions/505775/8-queen-problem-using-dynamic-programming
 * https://www.geeksforgeeks.org/printing-solutions-n-queen-problem/
-* 
+* https://developers.google.com/optimization/cp/queens

@@ -13,7 +13,7 @@ My name is Taha Khan I'm in 7th semester and I'm currently enrolled in FYP-1, I'
 ![Demo](demo.PNG "demo")
 
 # Minimum N-Queens Problem Simulator
-We ahve  simulated minimum n-queens problem with two algorithms : **Divide & Conq** and **Dynamic Programming** using javascript language
+We have  simulated minimum n-queens problem with two algorithms : **Divide & Conq** and **Dynamic Programming** using javascript language
 
 This project helps you to see the process of solving n-queens problem using the two mentioned algorithms and compare the performance.
 

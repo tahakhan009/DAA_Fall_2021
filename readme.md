@@ -25,7 +25,7 @@ This project helps you to see the process of solving n-queens problem using the 
 # Website link
 click [here](https://scintelligencia.com/taha/) to see online demo hosted on github pages
 
-# Problem Approach
+# Approach
 there are two problem we face **first problem**is dynamic programing In this problem, in the
 first row, the first square adds four new lines, and 
 subsequent squares add three new semi-ex-

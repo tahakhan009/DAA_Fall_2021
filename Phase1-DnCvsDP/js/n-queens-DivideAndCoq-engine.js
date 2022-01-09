@@ -15,10 +15,11 @@ class NQueensDivideAndConquerEngine{
 
     /**
      * creating 2 dimensional array that contains zeros and ones.
-     * zeros represent empty cells and ones represent queens
+     *  zero shows empty cells and 1 shows queens
+  
      */
     generateBoard(){
-        const { n } = this;
+        const {n} = this;
         this.board = Array.from(Array(n)).map(() => Array(n).fill(0));
     }
 
@@ -60,9 +61,9 @@ class NQueensDivideAndConquerEngine{
     /**
      * checking (x, y) position is under attack by other replaced queens or not
      * @param {int} x - The column index of queen
-     * @param {int} y - The row index of queen
+     * @param {int} y - row index of queen
      * @returns {boolean}
-     * @private
+   
      */
     _isUnderAttack(x, y){
         const { n, board } = this;
@@ -74,15 +75,15 @@ class NQueensDivideAndConquerEngine{
             }
         }
 
-        // checking diagonal attacks
+        // checks diagonal attacks
         for(let j = 0; j < n; j ++){
             for(let i = 0; i < n; i ++){
                 if(!board[j][i]) continue;
 
-                // calculate gradient of line that passes through (x, y) and (i, j)
+                // calculate the gradient of line that passes through (x, y) and (i, j)
                 const gradient = Math.abs((y - j) / (x - i));
 
-                // if gradient is equals to one, (x, y) queen is under attack by (i, j) queen
+                // if gradient is is equals to one, (x, y) queen is under attack by (i, j) queen
                 if(gradient === 1)
                     return true;
 

@@ -25,4 +25,45 @@ This project helps you to see the process of solving n-queens problem using the 
 # Website link
 click [here](https://scintelligencia.com/taha/) to see online demo hosted on github pages
 
+# Problem Approach
+there are two problem we face **first problem**is dynamic programing In this problem, in the
+first row, the first square adds four new lines, and 
+subsequent squares add three new semi-ex-
+hausted lines apiece. The last square in the row 
+exhausts two lines: the row, and one of its diago-
+nals (namely, the short single-element diagonal). 
+So after the first row there are 3n - 1 semi-ex-
+hausted lines. The first square in the second row 
+adds a new row line and a new diagonal line, and 
+exhausts the other (two-element) diagonal, for a 
+net gain of one line. The remaining squares in the 
+second row have no effect until we get to the last 
+square, which adds a new diagonal and exhausts 
+the row line and a short (two-element) diagonal, 
+for a net loss of one line. Subsequent rows be-
+have like the second row. Again, the final row 
+exhausts various lines, but that does not concern . 
+The **second prolem** is divide and conquer In this problem 
+In the 
+array, the first square adds four new lines, and 
+subsequent squares add three new semi-ex-
+hausted lines apiece. The last square in the row 
+exhausts two lines: the row, and one of its diago-
+nals (namely, the short single-element diagonal). 
+So after the first row there are 3n - 1 semi-ex-
+hausted lines. The first square in the second row 
+adds a new row line and a new diagonal line, and 
+exhausts the other (two-element) diagonal, for a 
+net gain of one line. The remaining squares in the 
+second row have no effect until we get to the last 
+square, which adds a new diagonal and exhausts 
+the row line and a short (two-element) diagonal, 
+for a net loss of one line. Subsequent rows be-
+have like the second row. Again, the final row 
+Merge all the lines subsequently
 
+# References
+* https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
+* https://coderedirect.com/questions/505775/8-queen-problem-using-dynamic-programming
+* https://www.geeksforgeeks.org/printing-solutions-n-queen-problem/
+* 
